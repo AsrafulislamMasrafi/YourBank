@@ -114,18 +114,6 @@ $bg: #1a1a1a;
   --grey-footer-color: #e4e4e7;
   // --color-greenyellow-100: #caff3333;
 }
-// TODO: remove if not use color
-// --grey-15: #262626;
-// --green-65: #d1ff4d;
-// --white-90: #e3e3e8;
-// --grey-35: #59595a;
-// --grey-30: #4c4c4d;
-// --grey-20: #333;
-// --grey-75: #bfbfbf;
-
-// 1440
-// 390
-// 1920
 
 @mixin tablet {
   @media (max-width: 599px) {

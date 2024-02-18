@@ -1,0 +1,163 @@
+.testimonials {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 1.5;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    .headingText {
+      max-width: 60vw;
+      h1 {
+        margin-bottom: 1rem;
+        font-size: 2.3rem;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+
+    .headingBtn {
+      // TODO ADD Click ANIMATION
+      min-width: 300px;
+      justify-self: end;
+      padding: 0.4rem;
+      border-radius: 3rem;
+    }
+  }
+
+  .testimonialsCardContainer {
+    overflow: hidden;
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 100px 0px 50px #1a1a1a, inset -100px 0px 50px #1a1a1b;
+      position: absolute;
+      left: 0;
+      z-index: 10;
+    }
+    @include tablet {
+      padding: 1rem;
+      &::before {
+        box-shadow: inset 50px 0px 50px #1a1a1a, inset -50px 0px 50px #1a1a1b;
+        position: absolute;
+      }
+    }
+    .cardDiv {
+      grid-column: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include tablet {
+      }
+      gap: 3rem;
+      position: relative;
+      .cardItem {
+        @include tablet {
+          border-radius: 1rem;
+          border: 1px solid #8583832e;
+        }
+        min-width: 300px;
+        position: relative;
+        display: grid;
+        place-items: center;
+        gap: 2rem;
+        text-align: center;
+        padding: 1rem;
+        .cardIcon {
+          z-index: 100;
+          background-color: #1a1a1a;
+          &::after,
+          &::before {
+            z-index: 0;
+            content: "";
+            width: 40%;
+            height: 1px;
+            background-color: #dddddd1b;
+            position: absolute;
+          }
+          &::before {
+            left: 0;
+          }
+          &::after {
+            right: 0;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .testimonials .heading {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .headingText {
+      max-width: 70vw;
+      p {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+.btnToggle {
+  padding: 0.5rem;
+  background: #1a1a1a;
+  border-radius: 50%;
+  border: 1px solid #dbd3d316;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 25%;
+  svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+.prev {
+  left: 0;
+  z-index: 100;
+}
+.next {
+  z-index: 100;
+  right: 0;
+}
+
+@include tablet {
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 1rem;
+    .heading {
+      grid-column: 1/-1;
+    }
+    .testimonialsCardContainer {
+      grid-column: 1/-1;
+    }
+  }
+  .btnToggle {
+    position: static;
+  }
+  .prev {
+    grid-column: 1;
+    justify-self: self-end;
+  }
+  .next {
+    grid-column: 2;
+    justify-self: self-start;
+  }
+}

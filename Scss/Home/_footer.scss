@@ -1,0 +1,52 @@
+footer {
+  background: #1c1c1c;
+  .footer {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    gap: 1.5rem;
+    .social,
+    ul {
+      display: flex;
+      gap: 1rem;
+    }
+    .social {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .socialIcon {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .socialBar {
+      .icondiv {
+        display: flex;
+        gap: 1rem;
+      }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      border-radius: 3rem;
+      background: #1c1c1c;
+      width: 100%;
+      padding: 0.7rem 1.2rem;
+      border: 1px solid rgba(255, 255, 255, 0.062);
+      font-size: 12px;
+
+      @include tablet{
+        flex-direction: column;
+        position: relative;
+        padding: 1.5rem;
+        border-radius: 6px;
+        .icondiv{
+            position: absolute;
+            top: -16px;
+        }
+      }
+    }
+  }
+}

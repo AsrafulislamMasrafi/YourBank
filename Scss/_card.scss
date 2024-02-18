@@ -1,0 +1,111 @@
+// Global Card
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  font-size: var(--font-size-m);
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: var(--grey-card);
+  background-repeat: no-repeat;
+  justify-content: center;
+  justify-self: center;
+
+  @include desktop {
+    max-width: 610px;
+    font-size: 14px;
+  }
+  @include tablet {
+    max-width: max(358px, 100%);
+    font-size: 10px;
+  }
+}
+
+.cardBgLeft {
+  background-image: url("../assets/Logo/Abstract\ Design\ dot.svg");
+  background-position: left top;
+}
+.cardBgRight {
+  background-image: url("../assets/Logo/Abstract\ Design\ dot\ 2.svg");
+  background-position: right top;
+}
+// card
+.card {
+  background: var(--grey-btn-card);
+  padding: 1rem 2rem;
+
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff13;
+  .cardText {
+    text-align: center;
+    font-weight: 500;
+  }
+}
+.flexCenter {
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+// icon
+.icon {
+  --icon-size-before: 3.5rem;
+  --icon-size: 2.6rem;
+  --icon: 2rem;
+
+  @include desktop {
+    --icon-size-before: 3.4rem;
+    --icon-size: 2.6rem;
+    --icon: 2rem;
+  }
+
+  @include tablet {
+    --icon-size-before: 3rem;
+    --icon-size: 2.3rem;
+    --icon: 1.7rem;
+  }
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background: linear-gradient(
+    180deg,
+    rgba(202, 255, 51, 0.05),
+    rgba(202, 255, 51, 0.01)
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    content: "";
+    width: var(--icon-size-before);
+    height: var(--icon-size-before);
+    background: linear-gradient(
+      180deg,
+      rgba(202, 255, 51, 0.1),
+      rgba(202, 255, 51, 0.01) 46.77%
+    );
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  svg {
+    fill: var(--green-color-btn);
+    width: var(--icon);
+    height: var(--icon);
+  }
+}
+
+.card2 {
+  background: #1c1c1c;
+  border-radius: 0.51rem;
+  border: 1px solid #ffffff1a;
+}

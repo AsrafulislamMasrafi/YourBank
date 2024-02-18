@@ -1,0 +1,43 @@
+.useCases {
+  @media screen and (max-width: 900px) {
+    .products .heading {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      .headingText {
+        max-width: 70vw;
+        p {
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    .textContainer {
+      .productBox {
+        text-align: center;
+        .textGreen {
+          font-size: 3em;
+          font-weight: 400;
+        }
+      }
+    }
+    .btn {
+      margin: auto;
+    }
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 1rem;
+    .productBox {
+      .textGreen {
+        font-size: 3rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+

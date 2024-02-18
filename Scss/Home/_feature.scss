@@ -1,0 +1,51 @@
+.FeatureCardContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+
+  .cardMenu {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    .cardItem {
+      padding: 2rem;
+
+      .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .FeatureCardContainer {
+    grid-template-columns: 100%;
+    overflow: hidden;
+    .cardMenu {
+      flex-direction: row;
+      padding: 1rem;
+      width: 100%;
+      overflow: hidden;
+      .btn {
+        min-width: 200px;
+      }
+    }
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+}

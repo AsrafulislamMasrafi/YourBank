@@ -1,0 +1,64 @@
+.products {
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 1.5;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    .headingText {
+      max-width: 60vw;
+      h1 {
+        margin-bottom: 1rem;
+        font-size: 2.3rem;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+
+    .headingBtn {
+      // TODO ADD Click ANIMATION
+      min-width: 300px;
+      justify-self: end;
+      padding: 0.4rem;
+      border-radius: 3rem;
+    }
+  }
+  // card
+  .productsCard {
+    align-self: center;
+    .productBox {
+      font-weight: 300;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1.3rem;
+      place-self: center;
+      text-align: center;
+      max-width: 500px;
+      h3 {
+        font-weight: 300;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .products .heading {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .headingText {
+      max-width: 70vw;
+      p {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

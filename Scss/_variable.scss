@@ -1,0 +1,144 @@
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+/* A elements that don't have a class get default styles */
+a {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  // outline: none;
+  // border: none;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+// font
+$font: "Lexend", sans-serif;
+$font1: "Barlow Condensed", sans-serif;
+$font2: "Bellefair", serif;
+$font3: "Barlow", sans-serif;
+
+// color
+$white: #ffffff;
+$black: #000000;
+$bg: #1a1a1a;
+
+// variable for scss
+:root {
+  /* font sizes */
+  --font-size-extra-sm: 0.875rem;
+  --font-size-sm: 1.125rem;
+  --font-size-m: 1.4rem;
+  --font-size-base: 1.875rem;
+  --font-size-md: 3.625rem;
+  --font-size-lg: 3rem;
+
+  /* Colors */
+  --grey-btn-card: #1a1a1a;
+  --green-color-btn: #caff33;
+  --color-gray-btn: #22251b;
+  --grey-color-body: #b3b3b3;
+  --absolute-white: #fff;
+  --grey-card: #1c1c1c;
+  --grey-footer-color: #e4e4e7;
+  // --color-greenyellow-100: #caff3333;
+}
+// TODO: remove if not use color
+// --grey-15: #262626;
+// --green-65: #d1ff4d;
+// --white-90: #e3e3e8;
+// --grey-35: #59595a;
+// --grey-30: #4c4c4d;
+// --grey-20: #333;
+// --grey-75: #bfbfbf;
+
+// 1440
+// 390
+// 1920
+
+@mixin tablet {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}

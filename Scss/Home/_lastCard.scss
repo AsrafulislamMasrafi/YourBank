@@ -1,0 +1,52 @@
+.lastCard {
+  background-color: #1c1c1c;
+  background: linear-gradient(to left, #1c1c1c, transparent),
+    url("../../assets/CTA\ Section.svg");
+
+  background-repeat: no-repeat;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid hsl(0, 0%, 20%);
+  position: relative;
+
+  &::after {
+    position: absolute;
+    background-image: url("../../assets/Logo/Abstract\ Design\ dot.svg");
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+  .heading {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    place-items: center;
+
+    h1 {
+      font-weight: 300;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      max-width: 80%;
+    }
+    p {
+      font-size: 0.86rem;
+      padding-top: 1rem;
+      max-width: 80%;
+    }
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      text-align: center;
+      gap: 1rem;
+      h1,
+      p {
+        max-width: 100%;
+      }
+    }
+  }
+}

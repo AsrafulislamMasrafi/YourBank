@@ -1,0 +1,36 @@
+// Global Buttons
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 1.3rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+  // TODO: Change
+  font-size: 14px;
+  text-align: center;
+}
+.btnColor {
+  background: #caff33;
+  color: #000;
+  font-weight: 500;
+  transform: all 0.5s;
+  &:hover {
+    background: #b0e61a;
+  }
+}
+
+.btnColorWhite {
+  background: #ffffff0a;
+  border: 1px solid #ffffff14;
+  color: #fff;
+  transform: all 0.5s;
+  &:hover {
+    background: #ffffff14;
+  }
+}
+
+.btnColorGreen {
+  background: rgba(208, 255, 77, 0.058);
+  color: #d1ff4d;
+}

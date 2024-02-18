@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Your Bank Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Css/style.css" />
+  </head>
+  <body>
+    <header class="container ">
+      <nav class="col2">
+        <div class="logo">
+          <img src="../assets/Logo/Logo.svg" alt="" />
+        </div>
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+        <div class="btnGroup">
+          <button class="btn">Sign up</button>
+          <button class="btn btnColor">Login</button>
+        </div>
+        <div class="navIcon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="col2 containerHalf mt1">
+        <div class="heroText">
+          <button class="flex btn active">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.60288 1.79876C7.42705 0.850931 8.64332 0.25 10 0.25C11.3566 0.25 12.5728 0.850872 13.397 1.79861C14.6501 1.71106 15.9352 2.14616 16.8946 3.10557C17.854 4.06498 18.2891 5.35009 18.2016 6.60319C19.1492 7.42735 19.75 8.64348 19.75 10C19.75 11.3568 19.149 12.5731 18.2011 13.3973C18.2884 14.6502 17.8533 15.935 16.8941 16.8943C15.9348 17.8535 14.65 18.2886 13.3971 18.2013C12.5729 19.1491 11.3567 19.75 10 19.75C8.6434 19.75 7.4272 19.1491 6.60304 18.2014C5.34992 18.289 4.0648 17.8539 3.10537 16.8945C2.14596 15.935 1.71086 14.6499 1.79841 13.3968C0.850785 12.5726 0.25 11.3565 0.25 10C0.25 8.64342 0.850846 7.42723 1.79855 6.60306C1.7111 5.35005 2.14621 4.06507 3.10554 3.10574C4.06488 2.1464 5.34987 1.71129 6.60288 1.79876ZM13.6103 8.18593C13.8511 7.84887 13.773 7.38046 13.4359 7.1397C13.0989 6.89894 12.6305 6.97701 12.3897 7.31407L9.1543 11.8436L7.53033 10.2197C7.23744 9.92678 6.76256 9.92678 6.46967 10.2197C6.17678 10.5126 6.17678 10.9874 6.46967 11.2803L8.71967 13.5303C8.87556 13.6862 9.09215 13.7656 9.31186 13.7474C9.53157 13.7293 9.73216 13.6153 9.8603 13.4359L13.6103 8.18593Z"
+                fill="#CAFF33"
+              />
+            </svg>
+
+            <span> No LLC Required, No Credit Check. </span>
+          </button>
+          <div class="text">
+            <h1>Welcome to YourBank</h1>
+            <h1>
+              Empowering Your
+              <span class="textGreen">Financial Journey</span>
+            </h1>
+            <p class="colorGray">
+              At YourBank, our mission is to provide comprehensive banking
+              solutions that empower individuals and businesses to achieve their
+              financial goals. We are committed to delivering personalized and
+              innovative services that prioritize our customers' needs.
+            </p>
+          </div>
+          <button class="flex btn btnColor">Open Account</button>
+        </div>
+        <!-- hero card -->
+        <div class="heroContainer">
+          <div class="heroCardDiv">
+            <!-- top card -->
+            <div class="monthlyIncomeDiv">
+              <div class="iconCard">
+                <img src="../assets/Icon Container.svg" alt="" />
+              </div>
+              <div class="text">
+                <p>+$500,440</p>
+                <p>Monthly Income</p>
+              </div>
+            </div>
+            <!-- top card end-->
+
+            <h5>Your Transactions</h5>
+            <!-- start -->
+            <div class="heroCard">
+              <div class="heroCardContainer">
+                <svg
+                  width="39"
+                  height="39"
+                  viewBox="0 0 39 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.470703"
+                    y="0.320068"
+                    width="38.1496"
+                    height="38.1496"
+                    rx="19.0748"
+                    fill="#CAFF33"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.8756 11.3206C22.5823 11.6365 22.6006 12.1302 22.9164 12.4234L25.1018 14.4527L16.1643 14.4527C15.7333 14.4527 15.3839 14.8021 15.3839 15.2331C15.3839 15.664 15.7333 16.0134 16.1643 16.0134L25.1018 16.0134L22.9164 18.0427C22.6006 18.3359 22.5823 18.8297 22.8756 19.1455C23.1688 19.4613 23.6625 19.4796 23.9784 19.1863L27.6199 15.8049C27.7789 15.6572 27.8693 15.4501 27.8693 15.2331C27.8693 15.0161 27.7789 14.8089 27.6199 14.6612L23.9784 11.2798C23.6625 10.9866 23.1688 11.0048 22.8756 11.3206ZM16.2159 19.6442C15.9226 19.3284 15.4289 19.3101 15.1131 19.6033L11.4715 22.9848C11.3125 23.1324 11.2222 23.3396 11.2222 23.5566C11.2222 23.7736 11.3125 23.9808 11.4715 24.1284L15.1131 27.5099C15.4289 27.8031 15.9226 27.7848 16.2159 27.469C16.5091 27.1532 16.4908 26.6595 16.175 26.3662L13.9896 24.3369H22.9272C23.3581 24.3369 23.7075 23.9876 23.7075 23.5566C23.7075 23.1256 23.3581 22.7763 22.9272 22.7763H13.9896L16.175 20.747C16.4908 20.4537 16.5091 19.96 16.2159 19.6442Z"
+                    fill="#1C1C1C"
+                  />
+                </svg>
+                <div>
+                  <p>Transactions</p>
+                  <h5>Joel Henderson</h5>
+                </div>
+                <div class="price">-$59.00</div>
+              </div>
+              <div class="heroCardContainer">
+                <svg
+                  width="39"
+                  height="39"
+                  viewBox="0 0 39 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.470703"
+                    y="0.320068"
+                    width="38.1496"
+                    height="38.1496"
+                    rx="19.0748"
+                    fill="#CAFF33"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.8756 11.3206C22.5823 11.6365 22.6006 12.1302 22.9164 12.4234L25.1018 14.4527L16.1643 14.4527C15.7333 14.4527 15.3839 14.8021 15.3839 15.2331C15.3839 15.664 15.7333 16.0134 16.1643 16.0134L25.1018 16.0134L22.9164 18.0427C22.6006 18.3359 22.5823 18.8297 22.8756 19.1455C23.1688 19.4613 23.6625 19.4796 23.9784 19.1863L27.6199 15.8049C27.7789 15.6572 27.8693 15.4501 27.8693 15.2331C27.8693 15.0161 27.7789 14.8089 27.6199 14.6612L23.9784 11.2798C23.6625 10.9866 23.1688 11.0048 22.8756 11.3206ZM16.2159 19.6442C15.9226 19.3284 15.4289 19.3101 15.1131 19.6033L11.4715 22.9848C11.3125 23.1324 11.2222 23.3396 11.2222 23.5566C11.2222 23.7736 11.3125 23.9808 11.4715 24.1284L15.1131 27.5099C15.4289 27.8031 15.9226 27.7848 16.2159 27.469C16.5091 27.1532 16.4908 26.6595 16.175 26.3662L13.9896 24.3369H22.9272C23.3581 24.3369 23.7075 23.9876 23.7075 23.5566C23.7075 23.1256 23.3581 22.7763 22.9272 22.7763H13.9896L16.175 20.747C16.4908 20.4537 16.5091 19.96 16.2159 19.6442Z"
+                    fill="#1C1C1C"
+                  />
+                </svg>
+                <div>
+                  <p>Transactions</p>
+                  <h5>Joel Henderson</h5>
+                </div>
+                <div class="price">-$59.00</div>
+              </div>
+              <div class="heroCardContainer">
+                <svg
+                  width="39"
+                  height="39"
+                  viewBox="0 0 39 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="0.470703"
+                    y="0.320068"
+                    width="38.1496"
+                    height="38.1496"
+                    rx="19.0748"
+                    fill="#CAFF33"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.8756 11.3206C22.5823 11.6365 22.6006 12.1302 22.9164 12.4234L25.1018 14.4527L16.1643 14.4527C15.7333 14.4527 15.3839 14.8021 15.3839 15.2331C15.3839 15.664 15.7333 16.0134 16.1643 16.0134L25.1018 16.0134L22.9164 18.0427C22.6006 18.3359 22.5823 18.8297 22.8756 19.1455C23.1688 19.4613 23.6625 19.4796 23.9784 19.1863L27.6199 15.8049C27.7789 15.6572 27.8693 15.4501 27.8693 15.2331C27.8693 15.0161 27.7789 14.8089 27.6199 14.6612L23.9784 11.2798C23.6625 10.9866 23.1688 11.0048 22.8756 11.3206ZM16.2159 19.6442C15.9226 19.3284 15.4289 19.3101 15.1131 19.6033L11.4715 22.9848C11.3125 23.1324 11.2222 23.3396 11.2222 23.5566C11.2222 23.7736 11.3125 23.9808 11.4715 24.1284L15.1131 27.5099C15.4289 27.8031 15.9226 27.7848 16.2159 27.469C16.5091 27.1532 16.4908 26.6595 16.175 26.3662L13.9896 24.3369H22.9272C23.3581 24.3369 23.7075 23.9876 23.7075 23.5566C23.7075 23.1256 23.3581 22.7763 22.9272 22.7763H13.9896L16.175 20.747C16.4908 20.4537 16.5091 19.96 16.2159 19.6442Z"
+                    fill="#1C1C1C"
+                  />
+                </svg>
+                <div>
+                  <p>Transactions</p>
+                  <h5>Joel Henderson</h5>
+                </div>
+                <div class="price">-$59.00</div>
+              </div>
+            </div>
+            <!-- end -->
+            <!-- card 2 half -->
+            <h5>Money Exchange</h5>
+            <div class="heroCard2">
+              <div class="cardSubContainer">
+                <div class="imgCard">
+                  <div class="cardImageSection border-bottom">
+                    <div class="img">
+                      <img src="../assets/Image.png" alt="img" />
+                      <span>USD</span>
+                    </div>
+                    <p>United States Dollar</p>
+                  </div>
+                  <div class="money border-top">12,000</div>
+                </div>
+                <div class="imgCard">
+                  <div class="cardImageSection border-b">
+                    <div class="img">
+                      <img src="../assets/Image.png" alt="img" />
+                      <span>USD</span>
+                    </div>
+                    <p>United States Dollar</p>
+                  </div>
+                  <div class="money">12,000</div>
+                </div>
+              </div>
+            </div>
+            <!--hero section  btn -->
+            <div class="heroCardbtn">
+              <div class="btn btnColorGreen">Exchange</div>
+            </div>
+          </div>
+        </div>
+        <div class="ourCurrency">
+          <p>Supported Currencies</p>
+          <div class="flex ourCurrencyIcon">
+            <img src="../assets/bit.svg" alt="" />
+            <img src="../assets/bit.svg" alt="" />
+            <img src="../assets/doller.svg" alt="" />
+            <img src="../assets/doller.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container">
+      <!-- our PRoducts -->
+      <div class="products col2 mt">
+        <div class="heading">
+          <div class="headingText">
+            <h1>Our <span class="textGreen">Products</span></h1>
+            <p class="colorGray">
+              Discover a range of comprehensive and customizable banking
+              products at YourBank, designed to suit your unique financial needs
+              and aspirations
+            </p>
+          </div>
+          <div class="headingBtn flex btnColorWhite tab2">
+            <div class="btn btnColor">For Individuals</div>
+            <div class="btn">For Businesses</div>
+          </div>
+        </div>
+        <div class="containerThird productsCard">
+          <div class="productBox">
+            <div class="icon">
+              <img src="../assets/Union.svg" alt="" />
+            </div>
+            <h3>Checking Accounts</h3>
+            <p class="colorGray">
+              Enjoy easy and convenient access to your funds with our range of
+              checking account options. Benefit from features such as online and
+              mobile banking, debit cards, and free ATM access.
+            </p>
+          </div>
+          <div class="productBox">
+            <div class="icon">
+              <img src="../assets/Union.svg" alt="" />
+            </div>
+            <h3>Checking Accounts</h3>
+            <p class="colorGray">
+              Enjoy easy and convenient access to your funds with our range of
+              checking account options. Benefit from features such as online and
+              mobile banking, debit cards, and free ATM access.
+            </p>
+          </div>
+          <div class="productBox">
+            <div class="icon">
+              <img src="../assets/Union.svg" alt="" />
+            </div>
+            <h3>Checking Accounts</h3>
+            <p class="colorGray">
+              Enjoy easy and convenient access to your funds with our range of
+              checking account options. Benefit from features such as online and
+              mobile banking, debit cards, and free ATM access.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- use Cases -->
+      <div class="useCases col2 mt">
+        <h1><span class="textGreen">Use Cases</span></h1>
+        <p class="colorGray m2">
+          At YourBank, We cater to the diverse of individuals and businesses
+          alike, offering a wide range of financial solutions
+        </p>
+        <!-- card -->
+        <div class="containerHalf mt1">
+          <div class="cardContainer cardBgLeft">
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+          </div>
+          <div class="textContainer">
+            <div class="text">
+              <h2>For Individuals</h2>
+              <p class="colorGray m2">
+                For individuals, ours mortgage services pave the way to home
+                ownership, and our flexible personal loans provide vital support
+                during various life milestones. We also prioritize retirement
+                planning, ensuring a financially secure future for our customers
+              </p>
+            </div>
+            <div class="containerThird productsCard">
+              <div class="productBox">
+                <h1 class="textGreen">85%</h1>
+                <p class="colorGray">Cash Flow Management</p>
+              </div>
+              <div class="productBox">
+                <h1 class="textGreen">83%</h1>
+                <p class="colorGray">Cash Flow Management</p>
+              </div>
+              <div class="productBox">
+                <h1 class="textGreen">55%</h1>
+                <p class="colorGray">Cash Flow Management</p>
+              </div>
+            </div>
+            <div class="btn btnColorWhite flex">Learn More</div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <!--  -->
+    </div>
+
+    <div class="container">
+      <!--  -->
+      <!-- card 2 -->
+      <div class="useCases col2 m2">
+        <!-- card -->
+        <div class="containerHalf mt1">
+          <div class="textContainer">
+            <div class="text">
+              <h2>Our Businesses</h2>
+              <p class="colorGray m2">
+                For individuals, ours mortgage services pave the way to home
+                ownership, and our flexible personal loans provide vital support
+                during various life milestones. We also prioritize retirement
+                planning, ensuring a financially secure future for our customers
+              </p>
+            </div>
+            <div class="containerThird productsCard">
+              <div class="productBox">
+                <h1 class="textGreen">85%</h1>
+                <p class="colorGray">Cash Flow Management</p>
+              </div>
+              <div class="productBox">
+                <h1 class="textGreen">83%</h1>
+                <p class="colorGray">Cash Flow Management</p>
+              </div>
+              <div class="productBox">
+                <h1 class="textGreen">55%</h1>
+                <p class="colorGray">Cash Flow Management</p>
+              </div>
+            </div>
+            <div class="btn btnColorWhite flex">Learn More</div>
+          </div>
+          <div class="cardContainer cardBgRight">
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+            <div class="card flexCenter">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="cardText">
+                <p>Welcome to your bank</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+    </div>
+
+    <div class="container">
+      <!--  
+    /* ------------------- */
+    /* Features               */
+    /* ------------------- */
+  -->
+      <!--  -->
+      <div class="feature col2 mt">
+        <h1>Our<span class="textGreen">Features</span></h1>
+        <p class="colorGray m2">
+          Experience a host of powerful features at YourBank, including seamless
+          online banking, secure transactions, and personalized financial
+          insights, all designed to enhance your banking experience
+        </p>
+        <div class="FeatureCardContainer">
+          <div class="cardMenu card2">
+            <div class="btn btnColorWhite">Online Banking</div>
+            <div class="btn btnColorWhite">Financial Tools</div>
+            <div class="btn btnColorWhite">Customer Support</div>
+          </div>
+          <div class="cards">
+            <div class="card2 cardItem">
+              <div class="heading">
+                <h5>Mobile Banking App</h5>
+                <img src="../assets/Icon.svg" alt="" />
+              </div>
+              <p class="colorGray">
+                Stay connected to your finances on the go with our user-friendly
+                mobile banking app. Easily manage your accounts, deposit checks,
+                and make payments from your smartphone or tablet.
+              </p>
+            </div>
+            <div class="card2 cardItem">
+              <div class="heading">
+                <h5>24/7 Account Access</h5>
+                <img src="../assets/Icon.svg" alt="" />
+              </div>
+              <p class="colorGray">
+                Enjoy the convenience of accessing your accounts anytime,
+                anywhere through our secure online banking platform. Check
+                balances, transfer funds, and pay bills with ease.
+              </p>
+            </div>
+            <div class="card2 cardItem">
+              <div class="heading">
+                <h5>Secure Transactions</h5>
+                <img src="../assets/Icon.svg" alt="" />
+              </div>
+              <p class="colorGray">
+                Enjoy the convenience of accessing your accounts anytime,
+                anywhere through our secure online banking platform. Check
+                balances, transfer funds, and pay bills with ease.
+              </p>
+            </div>
+            <div class="card2 cardItem">
+              <div class="heading">
+                <h5>Bill Pay and Transfers</h5>
+                <img src="../assets/Icon.svg" alt="" />
+              </div>
+              <p class="colorGray">
+                Save time and avoid late fees with our convenient bill pay
+                service. Set up recurring payments or make one-time transfers
+                between your accounts with just a few clicks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="question col2 mt">
+        <h1><span class="textGreen">Frequently</span> Asked Question</h1>
+        <p class="colorGray m2">
+          Still have questions? We'd love to hear from you. Contact our Team via
+          support@gmail.com
+        </p>
+        <div class="qna default">
+          <div class="beo"></div>
+          <div class="qnaCard default">
+            <div class="card">
+              <h5>How dp open an account at YourBank?</h5>
+              <span class="hr"></span>
+              <p class="colorGray">
+                At YourBank, we are committed to providing you with the
+                convenience of online banking. You can access your accounts
+                online from anywhere in the world, anytime. Simply click on the
+                "Open Account" button to get started.
+              </p>
+            </div>
+
+            <div class="card">
+              <h5>How dp open an account at YourBank?</h5>
+              <span class="hr"></span>
+              <p class="colorGray">
+                At YourBank, we are committed to providing you with the
+                convenience of online banking. You can access your accounts
+                online from anywhere in the world, anytime. Simply click on the
+                "Open Account" button to get started.
+              </p>
+            </div>
+
+            <div class="card">
+              <h5>How dp open an account at YourBank?</h5>
+              <span class="hr"></span>
+              <p class="colorGray">
+                At YourBank, we are committed to providing you with the
+                convenience of online banking. You can access your accounts
+                online from anywhere in the world, anytime. Simply click on the
+                "Open Account" button to get started.
+              </p>
+            </div>
+
+            <div class="card">
+              <h5>How dp open an account at YourBank?</h5>
+              <span class="hr"></span>
+              <p class="colorGray">
+                At YourBank, we are committed to providing you with the
+                convenience of online banking. You can access your accounts
+                online from anywhere in the world, anytime. Simply click on the
+                "Open Account" button to get started.
+              </p>
+            </div>
+
+            <div class="card">
+              <h5>How dp open an account at YourBank?</h5>
+              <span class="hr"></span>
+              <p class="colorGray">
+                At YourBank, we are committed to providing you with the
+                convenience of online banking. You can access your accounts
+                online from anywhere in the world, anytime. Simply click on the
+                "Open Account" button to get started.
+              </p>
+            </div>
+
+            <div class="card">
+              <h5>How dp open an account at YourBank?</h5>
+              <span class="hr"></span>
+              <p class="colorGray">
+                At YourBank, we are committed to providing you with the
+                convenience of online banking. You can access your accounts
+                online from anywhere in the world, anytime. Simply click on the
+                "Open Account" button to get started.
+              </p>
+            </div>
+          </div>
+          <div class="qnaBtn flex btnColorWhite btn">
+            Load All FAQ's
+            <svg
+              width="15px"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="testimonials col2 mt">
+        <div class="heading">
+          <div class="headingText">
+            <h1>Our <span class="textGreen">Products</span></h1>
+            <p class="colorGray">
+              Discover how YourBank has transformed lives with innovative
+              digital solutions and personalized customer service. See why our
+              clients trust us for a secure and prosperous financial journey
+            </p>
+          </div>
+          <div class="headingBtn flex btnColorWhite tab">
+            <div class="btn btnColor">For Individuals</div>
+            <div class="btn">For Businesses</div>
+          </div>
+        </div>
+
+        <div class="testimonialsCardContainer">
+          <div class="cardDiv">
+            <div class="cardItem">
+              <div class="cardIcon">
+                <img src="../assets/Container.svg" alt="" />
+              </div>
+              <p>
+                I recently started my own business, and YourBank has been
+                instrumental in helping me set up my business accounts and
+                secure the financing I needed. Their expert guidance and
+                tailored solutions have been invaluable.
+              </p>
+              <div class="cardName textGreen">
+                <h4>John Doe</h4>
+              </div>
+            </div>
+            <div class="cardItem">
+              <div class="cardIcon">
+                <img src="../assets/Container.svg" alt="" />
+              </div>
+              <p>
+                I recently started my own business, and YourBank has been
+                instrumental in helping me set up my business accounts and
+                secure the financing I needed. Their expert guidance and
+                tailored solutions have been invaluable.
+              </p>
+              <div class="cardName textGreen">
+                <h4>John Doe</h4>
+              </div>
+            </div>
+            <div class="cardItem">
+              <div class="cardIcon">
+                <img src="../assets/Container.svg" alt="" />
+              </div>
+              <p>
+                I recently started my own business, and YourBank has been
+                instrumental in helping me set up my business accounts and
+                secure the financing I needed. Their expert guidance and
+                tailored solutions have been invaluable.
+              </p>
+              <div class="cardName textGreen">
+                <h4>John Doe</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="prev btnToggle">
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.5833 14H7M7 14L14 7M7 14L14 21"
+              stroke="#CAFF33"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="next btnToggle">
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.99968 14H21.583M21.583 14L14.583 7M21.583 14L14.583 21"
+              stroke="#CAFF33"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="lastCard col2 mt">
+        <div class="heading">
+          <div class="headingText">
+            <h1>
+              Start your financial journey with
+              <span class="textGreen"> YourBank today!</span>
+            </h1>
+            <p class="colorGray">
+              Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus
+              pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus.
+              Nascetur viverra arcu sed amet cursus purus.
+            </p>
+          </div>
+          <div class="btn btnColor flex">Open Account</div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container mt">
+      <div class="footer col2">
+        <img src="../assets/Logo/Logo 3.svg" alt="" />
+        <ul>
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> Careers </a></li>
+          <li><a href="#"> About </a></li>
+          <li><a href="#"> Security </a></li>
+        </ul>
+        <div class="hr"></div>
+        <div class="social">
+          <div class="socialIcon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M17.834 6.166a8.25 8.25 0 1 0 0 11.668.75.75 0 0 1 1.06 1.06c-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788 3.807-3.808 9.98-3.808 13.788 0A9.722 9.722 0 0 1 21.75 12c0 .975-.296 1.887-.809 2.571-.514.685-1.28 1.179-2.191 1.179-.904 0-1.666-.487-2.18-1.164a5.25 5.25 0 1 1-.82-6.26V8.25a.75.75 0 0 1 1.5 0V12c0 .682.208 1.27.509 1.671.3.401.659.579.991.579.332 0 .69-.178.991-.579.3-.4.509-.99.509-1.671a8.222 8.222 0 0 0-2.416-5.834ZM15.75 12a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            hello@yourbank.com
+          </div>
+          <div class="socialIcon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            +00 132 463 2524
+          </div>
+          <div class="socialIcon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            SomeWhere in the world
+          </div>
+        </div>
+        <div class="hr"></div>
+        <div class="socialBar">
+          <div class="icondiv">
+            <div class="iconBar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+                ></path>
+              </svg>
+            </div>
+            <div class="iconBar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+                ></path>
+              </svg>
+            </div>
+            <div class="iconBar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                id="twitter"
+              >
+                <path
+                  fill="#03A9F4"
+                  d="M16 3.539a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794 3.28 3.28 0 0 0-5.674 2.243c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.578v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 15c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.539z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <p class="colorGray">YourBank All Right Reserved</p>
+          <p class="colorGray">Privacy Policy | Terms of Service</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+
+  <script src="../Js/app.js"></script>
+</html>
